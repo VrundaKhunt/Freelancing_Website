@@ -1,0 +1,100 @@
+.footer{
+    .container{ 
+       
+        background-color: #f1fdf7;
+       
+        
+        .top{
+            margin-top: 30px;
+            margin-bottom: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+
+            .item{
+                display: flex;
+                flex-direction: column; 
+                gap: 20px;
+                color: rgb(144, 142, 142);
+                margin-left: 70px;
+                margin-right: 70px;
+                margin-top: 30px;
+                
+
+                h2{
+                    color: rgb(123, 120, 120);
+                    font-weight: 700;
+                    
+                }
+               
+               
+
+            }
+        }
+
+    }
+    hr{
+        width: 100%;
+        
+    }
+    .bottom{
+        display: flex;
+        margin-top: 20px;
+        
+       
+        .left{
+            display: flex;
+            flex-direction: row;
+            margin-left: 125px;
+            gap: 20px;
+           
+
+            h2{
+                color: gray;
+                font-size: 27px;
+
+            }
+            span{
+                margin-top: 9px;
+                color: gray;
+            }
+        }
+        
+        .right{
+            display: flex;
+            gap: 20px;
+            margin-bottom: 30px;
+            margin-left: 610px;         
+            .social{
+                display: flex;
+                gap: 20px;
+                img{
+                    height: 22px;
+                    width: 22px;
+                }
+            }
+
+            .link{
+                display: flex;
+                flex-direction: row;
+                gap: 12px;
+                img{
+                    height: 22px;
+                    width: 22px;
+                }
+                span{
+                    margin-top: 2px;
+                    font-size: 17px;
+                }
+            }
+            img{
+                height: 22px;
+                width: 22px;
+               
+            }
+        }
+
+    }
+
+}

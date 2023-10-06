@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./login.scss";
 import axios from "axios"
-import newRequest from "../../utils/newRequest";
+import newRequest from "../../utils/newRequest.js";
 import { useNavigate } from "react-router-dom";
 
 

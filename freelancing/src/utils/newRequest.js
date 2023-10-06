@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const newRequest = axios.create({
-    baseURL: "freelancing-website-zeta.vercel.app/api",
+    baseURL: "freelancing-website-zeta.vercel.app",
     withCredentials: true,
 })
 
